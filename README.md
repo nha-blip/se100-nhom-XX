@@ -6,7 +6,7 @@
 
 | Tên | GitHub | Chủ trì mốc |
 |---|---|---|
-| | | M1: Yêu cầu |
+| Võ Tấn Nhã | nha-blip | M1: Yêu cầu |
 | | | M2: Mô hình hoá |
 | | | M3–M4: Thiết kế |
 | | | M5: Giao hàng |
