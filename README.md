@@ -7,8 +7,8 @@
 | Tên | GitHub | Chủ trì mốc |
 |---|---|---|
 | Võ Tấn Nhã | nha-blip | M1: Yêu cầu |
-|Bùi Trần Trọng Nguyên | innguyen | M2: Mô hình hoá |
-| | | M3–M4: Thiết kế |
+| Bùi Trần Trọng Nguyên | innguyen | M2: Mô hình hoá |
+| Đinh Quang Nhật | PeterBrr | M3–M4: Thiết kế |
 | | | M5: Giao hàng |
 
 ## URL
