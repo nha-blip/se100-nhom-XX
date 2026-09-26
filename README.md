@@ -1,4 +1,6 @@
-# [Tên hệ thống] — SE100 · Nhóm __
+# [Tên hệ thống] — SE100.R13 · Nhóm xxx
+
+Môn học: **Phương pháp phát triển phần mềm hướng đối tượng - SE100.R13**.
 
 > Xoá dòng này rồi viết 5 dòng mô tả hệ thống: **ai** dùng, để **làm gì**, và điều gì **không được phép** xảy ra. Giảng viên đọc phần này đầu tiên khi duyệt đề tài, nên viết cho rõ.
 
@@ -6,14 +8,15 @@
 
 | Tên | GitHub | Chủ trì mốc |
 |---|---|---|
-| Võ Tấn Nhã | nha-blip | M1: Yêu cầu |
-|Bùi Trần Trọng Nguyên | innguyen | M2: Mô hình hoá |
-| | | M3–M4: Thiết kế |
-| | | M5: Giao hàng |
+| Võ Tấn Nhã | nha-blip | M1: Yêu cầu |
+| Bùi Trần Trọng Nguyên | innguyen | M2: Mô hình hoá |
+| Đinh Quang Nhật | | |
+| Nguyễn Thành Phát | | |
+| Văn Phú Thịnh | | |
 
 ## URL
 
-- Bản chạy: https://
+- Bản chạy: Chưa triển khai — xem [hướng dẫn deploy](docs/deploy.md).
 - Pipeline: xem tab Actions
 
 ## Cấu trúc repo
