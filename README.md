@@ -12,7 +12,7 @@ Môn học: **Phương pháp phát triển phần mềm hướng đối tượng
 | Võ Tấn Nhã | nha-blip | M1: Yêu cầu |
 | Bùi Trần Trọng Nguyên | innguyen | M2: Mô hình hoá |
 | Đinh Quang Nhật | | |
-| Nguyễn Thành Phát | | |
+| Nguyễn Thành Phát | kimjisoo03011995 | |
 | Văn Phú Thịnh | | |
 =======
 | Võ Tấn Nhã | nha-blip | M1: Yêu cầu |
