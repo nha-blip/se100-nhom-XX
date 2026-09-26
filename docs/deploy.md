@@ -1,6 +1,9 @@
 # Triển khai — Nhóm xxx
 
-- URL công khai: Chưa triển khai.
+- URL công khai: https://se100-r13-nhom-xxx.netlify.app
+- Nền tảng: Netlify, triển khai thủ công bằng Netlify Drop.
+- Trạng thái: Public và đã publish theo ảnh dashboard người dùng cung cấp.
+- Tự deploy khi push GitHub: Chưa thiết lập; hiện cần upload lại thư mục `src` khi sửa trang.
 - Thư mục xuất bản: `src`
 - Trang chính: `src/index.html`
 - Kiểm tra trên điện thoại: Chưa thực hiện.
