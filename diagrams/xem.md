@@ -1,0 +1,165 @@
+```mermaid
+classDiagram
+    direction TB
+
+    class User {
+        -int userId
+        -string fullName
+        -string email
+        -string phone
+        -string passwordHash
+        -string avatar
+        -string role
+        -float ratingAvg
+        -DateTime createdAt
+
+        +register()
+        +login()
+        +updateProfile()
+    }
+
+    class Category {
+        -int categoryId
+        -string name
+
+        +getPostsByCategory()
+    }
+
+    class Post {
+        -int postId
+        -int sellerId
+        -int categoryId
+        -string title
+        -string description
+        -float price
+        -string condition
+        -string status
+        -DateTime createdAt
+        -DateTime updatedAt
+
+        +createPost()
+        +editPost()
+        +deletePost()
+    }
+
+    class ModerationLog {
+        -int logId
+        -int postId
+        -int adminId
+        -string action
+        -string reason
+        -DateTime actionDate
+
+        +approvePost()
+        +rejectPost()
+    }
+
+    class PostImage {
+        -int imageId
+        -int postId
+        -string imageUrl
+
+        +uploadImage()
+    }
+
+    class Conversation {
+        -int conversationId
+        -int postId
+        -int buyerId
+        -int sellerId
+        -string status
+        -DateTime createdAt
+
+        +startConversation()
+        +closeConversation()
+    }
+
+    class Report {
+        -int reportId
+        -int postId
+        -int reporterId
+        -string reason
+        -string status
+        -DateTime createdAt
+
+        +submitReport()
+        +resolveReport()
+    }
+
+    class Message {
+        -int messageId
+        -int conversationId
+        -int senderId
+        -string content
+        -DateTime sentAt
+
+        +sendMessage()
+    }
+
+    class Agreement {
+        -int agreementId
+        -int conversationId
+        -float finalPrice
+        -string deliveryMethod
+        -DateTime meetingTime
+        -string meetingLocation
+        -bool confirmedByBuyer
+        -bool confirmedBySeller
+
+        +confirmAgreement()
+    }
+
+    class Transaction {
+        -int transactionId
+        -int agreementId
+        -int buyerId
+        -int sellerId
+        -int postId
+        -string status
+        -DateTime deliveredAt
+        -DateTime receivedAt
+
+        +confirmDelivery()
+        +confirmReceived()
+        +cancelTransaction()
+    }
+
+    class Review {
+        -int reviewId
+        -int transactionId
+        -int reviewerId
+        -int revieweeId
+        -int rating
+        -string comment
+        -DateTime createdAt
+
+        +submitReview()
+        +editReview()
+    }
+
+    Category "1" --> "0..*" Post : thuộc
+    User "1" --> "0..*" Post : đăng
+
+    User "1" --> "0..*" ModerationLog : admin xử lý
+    Post "1" --> "0..*" ModerationLog : được duyệt
+
+    Post "1" --> "0..*" PostImage : có
+
+    Post "1" --> "0..*" Conversation : phát sinh
+    User "1" --> "0..*" Conversation : buyer
+    User "1" --> "0..*" Conversation : seller
+
+    Post "1" --> "0..*" Report : bị báo cáo
+    User "1" --> "0..*" Report : gửi báo cáo
+
+    Conversation "1" --> "0..*" Message : chứa
+    Conversation "1" --> "0..1" Agreement : dẫn đến
+
+    Agreement "1" --> "0..1" Transaction : tạo
+    User "1" --> "0..*" Transaction : buyer
+    User "1" --> "0..*" Transaction : seller
+
+    Transaction "1" --> "0..2" Review : nhận đánh giá
+    User "1" --> "0..*" Review : viết
+    User "1" --> "0..*" Review : được đánh giá
+```
