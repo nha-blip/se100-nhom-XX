@@ -23,7 +23,7 @@ Môn học: **Phương pháp phát triển phần mềm hướng đối tượng
 
 ## URL
 
-- Bản chạy: Chưa triển khai — xem [hướng dẫn deploy](docs/deploy.md).
+- Bản chạy: https://se100-r13-nhom-xxx.netlify.app — xem [tài liệu deploy](docs/deploy.md).
 - Pipeline: xem tab Actions
 
 ## Cấu trúc repo
