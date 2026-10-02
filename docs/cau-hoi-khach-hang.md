@@ -1,9 +1,13 @@
-# Ba câu sẽ hỏi khách hàng
+# Câu hỏi khách hàng – Chợ đồ cũ sinh viên
 
-*Mốc M0. CI đếm dấu `?`, cần ≥ 3. Hỏi thật vào, đừng hỏi kiểu "hệ thống cần những gì".*
+1. Khi người mua và người bán xảy ra tranh chấp, chẳng hạn sản phẩm thực tế
+không đúng mô tả hoặc bị hư hỏng, ai sẽ chịu trách nhiệm giải quyết và nền
+tảng cần can thiệp đến mức nào?
 
-Câu hỏi tốt là câu hỏi về **bối cảnh**: ai sở hữu, ai trả tiền, ai chịu trách nhiệm, sai thì chuyện gì xảy ra. Hỏi về **chức năng** thì dễ nhưng ít dùng được. Tuần 5 các bạn sẽ mang chính mấy câu này ra hỏi khách hàng đóng vai.
+2. Chợ đồ cũ chỉ dành cho sinh viên của một trường, sinh viên của nhiều trường
+hay cho cả người ngoài? Nếu cần giới hạn đối tượng sử dụng thì ai chịu trách
+nhiệm xác minh và quản lý tư cách người dùng?
 
-1. 
-2. 
-3. 
+3. Việc thanh toán và giao nhận sẽ do người mua và người bán tự thỏa thuận hay
+được thực hiện thông qua nền tảng? Nếu một bên đã xác nhận giao dịch nhưng sau
+đó không thực hiện đúng thỏa thuận thì ai chịu trách nhiệm xử lý?
