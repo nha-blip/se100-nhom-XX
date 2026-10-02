@@ -7,19 +7,11 @@ Môn học: **Phương pháp phát triển phần mềm hướng đối tượng
 ## Thành viên
 
 | Tên | GitHub | Chủ trì mốc |
-|---|---|---|
-<<<<<<< HEAD
-| Võ Tấn Nhã | nha-blip | M1: Yêu cầu |
-| Bùi Trần Trọng Nguyên | innguyen | M2: Mô hình hoá |
-| Đinh Quang Nhật | | |
-| Nguyễn Thành Phát |  | |
-| Văn Phú Thịnh | | |
-=======
 | Võ Tấn Nhã | nha-blip | M1: Yêu cầu |
 | Bùi Trần Trọng Nguyên | innguyen | M2: Mô hình hoá |
 | Đinh Quang Nhật | PeterBrr | M3–M4: Thiết kế |
 | Nguyễn Thành Phát | kimjisoo03011995 | M5: Giao hàng |
->>>>>>> d91cd7579480897c19be103f57e0f35c33b51197
+| Văn Phú Thịnh | | |
 
 ## URL
 
