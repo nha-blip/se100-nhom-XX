@@ -7,16 +7,15 @@ Môn học: **Phương pháp phát triển phần mềm hướng đối tượng
 ## Thành viên
 
 | Tên | GitHub | Chủ trì mốc |
-|---|---|---|
-| Võ Tấn Nhã | nha-blip | M1: Yêu cầu |
+| Võ Tấn Nhã | nha-blip | M1: Yêu cầu |
 | Bùi Trần Trọng Nguyên | innguyen | M2: Mô hình hoá |
-| Đinh Quang Nhật | | |
-| Nguyễn Thành Phát | | |
+| Đinh Quang Nhật | PeterBrr | M3–M4: Thiết kế |
+| Nguyễn Thành Phát | kimjisoo03011995 | M5: Giao hàng |
 | Văn Phú Thịnh | | |
 
 ## URL
 
-- Bản chạy: Chưa triển khai — xem [hướng dẫn deploy](docs/deploy.md).
+- Bản chạy: https://se100-r13-nhom-xxx.netlify.app — xem [tài liệu deploy](docs/deploy.md).
 - Pipeline: xem tab Actions
 
 ## Cấu trúc repo
