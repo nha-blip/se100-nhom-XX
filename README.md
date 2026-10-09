@@ -11,7 +11,7 @@ Môn học: **Phương pháp phát triển phần mềm hướng đối tượng
 | Bùi Trần Trọng Nguyên | innguyen | M2: Mô hình hoá |
 | Đinh Quang Nhật | PeterBrr | M3–M4: Thiết kế |
 | Nguyễn Thành Phát | kimjisoo03011995 | M5: Giao hàng |
-| Văn Phú Thịnh | | |
+| Văn Phú Thịnh |24521709-VanPhuThinh | M2: Mô hình hóa |
 
 ## URL
 
